@@ -9,5 +9,5 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   #
-  mount Decidim::FileAuthorizationHandler::AdminEngine => '/admin'
+  #mount Decidim::FileAuthorizationHandler::AdminEngine => '/admin'
 end
