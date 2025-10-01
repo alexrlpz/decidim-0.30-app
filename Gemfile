@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
-gem "decidim", "0.30.0"
+gem "decidim", "0.30.2"
 # gem "decidim-ai", "0.30.0"
 # gem "decidim-conferences", "0.30.0"
 # gem "decidim-design", "0.30.0"
@@ -22,7 +22,7 @@ group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
 
   gem "brakeman", "~> 7.0"
-  gem "decidim-dev", "0.30.0"
+  gem "decidim-dev", "0.30.2"
   gem "net-imap", "~> 0.5.0"
   gem "net-pop", "~> 0.1.1"
 end
